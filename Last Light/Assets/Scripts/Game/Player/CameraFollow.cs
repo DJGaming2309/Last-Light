@@ -13,6 +13,6 @@ public class CameraFollow : MonoBehaviour
     {
         this.transform.position = new Vector3(followTransform.position.x, followTransform.position.y, this.transform.position.z);
 
-
+        Camera.main.fieldOfView = 75;
     }
 }
